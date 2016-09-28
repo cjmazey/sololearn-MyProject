@@ -1,3 +1,4 @@
+import samples.Animal;
 
 public class MyClass {
 	public static void main(String[] args) {
