@@ -1,5 +1,6 @@
 import samples.Animal;
 import samples.Counter;
+import samples.Dog;
 import samples.Vehicle;
 
 public class MyClass {
@@ -18,5 +19,8 @@ public class MyClass {
 		
 		Animal dog = new Animal();
 		dog.bark();
+		
+		Dog doggy = new Dog();
+		doggy.eat();
 	}
 }
