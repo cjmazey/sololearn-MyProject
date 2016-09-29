@@ -1,8 +1,8 @@
 package samples;
 
-public class Cat extends Animal {
-	public Cat() {
-		legs = 4;
+public class Cat implements Animal {
+	public void eat() {
+		System.out.println("omnomnom");
 	}
 	
 	public void makeSound() {

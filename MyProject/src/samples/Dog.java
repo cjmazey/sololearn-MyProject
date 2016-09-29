@@ -1,10 +1,9 @@
 package samples;
 
-public class Dog extends Animal {
-	public Dog() {
-		legs = 4;
+public class Dog implements Animal {
+	public void eat() {
+		System.out.println("rarara");
 	}
-	
 	public void makeSound() {
 		System.out.println("Woof");
 	}
