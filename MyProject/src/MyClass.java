@@ -10,7 +10,9 @@ public class MyClass {
 		System.out.println(v1.getColor());
 		System.out.println(v2.getColor());
 		
+		@SuppressWarnings("unused")
 		Counter c1 = new Counter();
+		@SuppressWarnings("unused")
 		Counter c2 = new Counter();
 		System.out.println(Counter.COUNT);
 		
