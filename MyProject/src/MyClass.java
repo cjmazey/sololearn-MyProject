@@ -1,4 +1,5 @@
 import samples.Animal;
+import samples.Cat;
 import samples.Counter;
 import samples.Dog;
 import samples.Vehicle;
@@ -17,10 +18,11 @@ public class MyClass {
 		Counter c2 = new Counter();
 		System.out.println(Counter.COUNT);
 		
-		Animal dog = new Animal();
-		dog.bark();
-		
-		Dog doggy = new Dog();
-		doggy.eat();
+		Animal a = new Animal();
+		a.makeSound();
+		Animal b = new Dog();
+		b.makeSound();
+		Animal c = new Cat();
+		c.makeSound();
 	}
 }
